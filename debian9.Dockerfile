@@ -26,7 +26,7 @@ RUN apt-get update &&\
 	cd /tool/or-tools  && \
 	make third_party && \
 	make cc fz && \
-	mv /tool/or-tools/bin/fz /tool/or-tools/bin/fz-gecode && \
+	mv /tool/or-tools/bin/fz /tool/or-tools/bin/fz-gecode
 
 ENV PATH "$PATH:/tool/or-tools/bin"
 
